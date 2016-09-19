@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FD42611D8FF50600C0B594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD42601D8FF50600C0B594 /* main.m */; };
+		04FD42641D8FF50600C0B594 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD42631D8FF50600C0B594 /* AppDelegate.m */; };
+		04FD42671D8FF50600C0B594 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD42661D8FF50600C0B594 /* ViewController.m */; };
+		04FD426A1D8FF50600C0B594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FD42681D8FF50600C0B594 /* Main.storyboard */; };
+		04FD426C1D8FF50600C0B594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FD426B1D8FF50600C0B594 /* Assets.xcassets */; };
+		04FD426F1D8FF50600C0B594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FD426D1D8FF50600C0B594 /* LaunchScreen.storyboard */; };
+		04FD427A1D8FF50600C0B594 /* GDRefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD42791D8FF50600C0B594 /* GDRefreshControlTests.m */; };
+		04FD42851D8FF50600C0B594 /* GDRefreshControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD42841D8FF50600C0B594 /* GDRefreshControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FD42761D8FF50600C0B594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FD42541D8FF50600C0B594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FD425B1D8FF50600C0B594;
+			remoteInfo = GDRefreshControl;
+		};
+		04FD42811D8FF50600C0B594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FD42541D8FF50600C0B594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FD425B1D8FF50600C0B594;
+			remoteInfo = GDRefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FD425C1D8FF50600C0B594 /* GDRefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDRefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD42601D8FF50600C0B594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FD42621D8FF50600C0B594 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FD42631D8FF50600C0B594 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FD42651D8FF50600C0B594 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04FD42661D8FF50600C0B594 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04FD42691D8FF50600C0B594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FD426B1D8FF50600C0B594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FD426E1D8FF50600C0B594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FD42701D8FF50600C0B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FD42751D8FF50600C0B594 /* GDRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD42791D8FF50600C0B594 /* GDRefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDRefreshControlTests.m; sourceTree = "<group>"; };
+		04FD427B1D8FF50600C0B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FD42801D8FF50600C0B594 /* GDRefreshControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDRefreshControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD42841D8FF50600C0B594 /* GDRefreshControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDRefreshControlUITests.m; sourceTree = "<group>"; };
+		04FD42861D8FF50600C0B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FD42591D8FF50600C0B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD42721D8FF50600C0B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD427D1D8FF50600C0B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FD42531D8FF50600C0B594 = {
+			isa = PBXGroup;
+			children = (
+				04FD425E1D8FF50600C0B594 /* GDRefreshControl */,
+				04FD42781D8FF50600C0B594 /* GDRefreshControlTests */,
+				04FD42831D8FF50600C0B594 /* GDRefreshControlUITests */,
+				04FD425D1D8FF50600C0B594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FD425D1D8FF50600C0B594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FD425C1D8FF50600C0B594 /* GDRefreshControl.app */,
+				04FD42751D8FF50600C0B594 /* GDRefreshControlTests.xctest */,
+				04FD42801D8FF50600C0B594 /* GDRefreshControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FD425E1D8FF50600C0B594 /* GDRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				04FD42621D8FF50600C0B594 /* AppDelegate.h */,
+				04FD42631D8FF50600C0B594 /* AppDelegate.m */,
+				04FD42651D8FF50600C0B594 /* ViewController.h */,
+				04FD42661D8FF50600C0B594 /* ViewController.m */,
+				04FD42681D8FF50600C0B594 /* Main.storyboard */,
+				04FD426B1D8FF50600C0B594 /* Assets.xcassets */,
+				04FD426D1D8FF50600C0B594 /* LaunchScreen.storyboard */,
+				04FD42701D8FF50600C0B594 /* Info.plist */,
+				04FD425F1D8FF50600C0B594 /* Supporting Files */,
+			);
+			path = GDRefreshControl;
+			sourceTree = "<group>";
+		};
+		04FD425F1D8FF50600C0B594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FD42601D8FF50600C0B594 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FD42781D8FF50600C0B594 /* GDRefreshControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FD42791D8FF50600C0B594 /* GDRefreshControlTests.m */,
+				04FD427B1D8FF50600C0B594 /* Info.plist */,
+			);
+			path = GDRefreshControlTests;
+			sourceTree = "<group>";
+		};
+		04FD42831D8FF50600C0B594 /* GDRefreshControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FD42841D8FF50600C0B594 /* GDRefreshControlUITests.m */,
+				04FD42861D8FF50600C0B594 /* Info.plist */,
+			);
+			path = GDRefreshControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FD425B1D8FF50600C0B594 /* GDRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FD42891D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControl" */;
+			buildPhases = (
+				04FD42581D8FF50600C0B594 /* Sources */,
+				04FD42591D8FF50600C0B594 /* Frameworks */,
+				04FD425A1D8FF50600C0B594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDRefreshControl;
+			productName = GDRefreshControl;
+			productReference = 04FD425C1D8FF50600C0B594 /* GDRefreshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FD42741D8FF50600C0B594 /* GDRefreshControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FD428C1D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControlTests" */;
+			buildPhases = (
+				04FD42711D8FF50600C0B594 /* Sources */,
+				04FD42721D8FF50600C0B594 /* Frameworks */,
+				04FD42731D8FF50600C0B594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FD42771D8FF50600C0B594 /* PBXTargetDependency */,
+			);
+			name = GDRefreshControlTests;
+			productName = GDRefreshControlTests;
+			productReference = 04FD42751D8FF50600C0B594 /* GDRefreshControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FD427F1D8FF50600C0B594 /* GDRefreshControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FD428F1D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControlUITests" */;
+			buildPhases = (
+				04FD427C1D8FF50600C0B594 /* Sources */,
+				04FD427D1D8FF50600C0B594 /* Frameworks */,
+				04FD427E1D8FF50600C0B594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FD42821D8FF50600C0B594 /* PBXTargetDependency */,
+			);
+			name = GDRefreshControlUITests;
+			productName = GDRefreshControlUITests;
+			productReference = 04FD42801D8FF50600C0B594 /* GDRefreshControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FD42541D8FF50600C0B594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Guoda;
+				TargetAttributes = {
+					04FD425B1D8FF50600C0B594 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					04FD42741D8FF50600C0B594 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FD425B1D8FF50600C0B594;
+					};
+					04FD427F1D8FF50600C0B594 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FD425B1D8FF50600C0B594;
+					};
+				};
+			};
+			buildConfigurationList = 04FD42571D8FF50600C0B594 /* Build configuration list for PBXProject "GDRefreshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FD42531D8FF50600C0B594;
+			productRefGroup = 04FD425D1D8FF50600C0B594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FD425B1D8FF50600C0B594 /* GDRefreshControl */,
+				04FD42741D8FF50600C0B594 /* GDRefreshControlTests */,
+				04FD427F1D8FF50600C0B594 /* GDRefreshControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FD425A1D8FF50600C0B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD426F1D8FF50600C0B594 /* LaunchScreen.storyboard in Resources */,
+				04FD426C1D8FF50600C0B594 /* Assets.xcassets in Resources */,
+				04FD426A1D8FF50600C0B594 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD42731D8FF50600C0B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD427E1D8FF50600C0B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FD42581D8FF50600C0B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD42671D8FF50600C0B594 /* ViewController.m in Sources */,
+				04FD42641D8FF50600C0B594 /* AppDelegate.m in Sources */,
+				04FD42611D8FF50600C0B594 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD42711D8FF50600C0B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD427A1D8FF50600C0B594 /* GDRefreshControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD427C1D8FF50600C0B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD42851D8FF50600C0B594 /* GDRefreshControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FD42771D8FF50600C0B594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FD425B1D8FF50600C0B594 /* GDRefreshControl */;
+			targetProxy = 04FD42761D8FF50600C0B594 /* PBXContainerItemProxy */;
+		};
+		04FD42821D8FF50600C0B594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FD425B1D8FF50600C0B594 /* GDRefreshControl */;
+			targetProxy = 04FD42811D8FF50600C0B594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FD42681D8FF50600C0B594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FD42691D8FF50600C0B594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FD426D1D8FF50600C0B594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FD426E1D8FF50600C0B594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FD42871D8FF50600C0B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FD42881D8FF50600C0B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FD428A1D8FF50600C0B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04FD428B1D8FF50600C0B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDRefreshControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04FD428D1D8FF50600C0B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDRefreshControl.app/GDRefreshControl";
+			};
+			name = Debug;
+		};
+		04FD428E1D8FF50600C0B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDRefreshControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDRefreshControl.app/GDRefreshControl";
+			};
+			name = Release;
+		};
+		04FD42901D8FF50600C0B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDRefreshControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDRefreshControl;
+			};
+			name = Debug;
+		};
+		04FD42911D8FF50600C0B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDRefreshControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDRefreshControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FD42571D8FF50600C0B594 /* Build configuration list for PBXProject "GDRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD42871D8FF50600C0B594 /* Debug */,
+				04FD42881D8FF50600C0B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FD42891D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD428A1D8FF50600C0B594 /* Debug */,
+				04FD428B1D8FF50600C0B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FD428C1D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD428D1D8FF50600C0B594 /* Debug */,
+				04FD428E1D8FF50600C0B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FD428F1D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD42901D8FF50600C0B594 /* Debug */,
+				04FD42911D8FF50600C0B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FD42541D8FF50600C0B594 /* Project object */;
+}
