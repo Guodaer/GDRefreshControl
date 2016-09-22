@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					04FD425B1D8FF50600C0B594 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A2A97RXWXX;
 						ProvisioningStyle = Automatic;
 					};
 					04FD42741D8FF50600C0B594 = {
@@ -422,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2A97RXWXX;
 				INFOPLIST_FILE = GDRefreshControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControl;
@@ -433,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2A97RXWXX;
 				INFOPLIST_FILE = GDRefreshControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaui.cn.GDRefreshControl;
@@ -505,6 +508,7 @@
 				04FD428B1D8FF50600C0B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FD428C1D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControlTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				04FD428E1D8FF50600C0B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FD428F1D8FF50600C0B594 /* Build configuration list for PBXNativeTarget "GDRefreshControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				04FD42911D8FF50600C0B594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
